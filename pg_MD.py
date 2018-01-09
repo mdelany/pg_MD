@@ -1,0 +1,15 @@
+import pyautogui as pg
+import time
+pg.moveTo(1194, 31, 1)
+pg.click()
+pg.moveTo(996, 409, 1)
+pg.click()
+pg.typewrite('pomeranian puppies',0.5)
+pg.typewrite(['enter'])
+pg.moveTo(916,207,1)
+pg.click()
+pg.moveTo(1296, 15)
+pg.click()
+pg.moveTo(521, 546)
+time.sleep(1)
+pg.click(521,546,1)
