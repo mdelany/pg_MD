@@ -1,5 +1,11 @@
 import pyautogui as pg
 import time
+pg.hotkey('ctrl', 'winleft', 'd')
+pg.hotkey('winleft')
+pg.typewrite('chrome\n',0.5)
+pg.hotkey('winleft','up')
+pg.hotkey('winleft','up')
+pg.hotkey('winleft','up')
 pg.moveTo(1194, 31, 1)
 pg.click()
 pg.moveTo(996, 409, 1)
